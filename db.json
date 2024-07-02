@@ -17,7 +17,8 @@
       "cetner": "서울강남센터",
       "phone": "010-1234",
       "limitLogin": 1,
-      "loginFail": 1
+      "loginFail": 1,
+      "token": "user1"
     },
     {
       "name": "사용자에요2",
@@ -27,7 +28,8 @@
       "cetner": "서울양재센터",
       "phone": "010-1234-5678",
       "limitLogin": 3,
-      "loginFail": 3
+      "loginFail": 3,
+      "token": "user2"
     },
     {
       "name": "관리자에요1",
@@ -37,7 +39,8 @@
       "cetner": "부산서면센터",
       "phone": "010-4321",
       "limitLogin": 2,
-      "loginFail": 2
+      "loginFail": 2,
+      "token": "admin1"
     },
     {
       "name": "관리자에요2",
@@ -47,7 +50,8 @@
       "cetner": "부산광안리센터",
       "phone": "010-4321-8765",
       "limitLogin": 4,
-      "loginFail": 4
+      "loginFail": 4,
+      "token": "admin2"
     }
   ]
 }
