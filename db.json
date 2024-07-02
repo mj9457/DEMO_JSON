@@ -1,17 +1,61 @@
-[
-  {
-    "_id": "6683e785da26efca0142fd7a",
-    "name": "안선옥",
-    "role": "admin"
-  },
-  {
-    "_id": "6683e785734eab8225b1274b",
-    "name": "정영아",
-    "role": "user"
-  },
-  {
-    "_id": "6683e785d379093cb390adef",
-    "name": "풍유연",
-    "role": "manager"
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "user": [
+      [
+        {
+          "name": "사용자에요1",
+          "id": "user1",
+          "pwd": "1234",
+          "role": "user",
+          "cetner": "서울강남센터",
+          "phone": "010-1234",
+          "limitLogin": 1,
+          "loginFail": 1
+        },
+        {
+          "name": "사용자에요2",
+          "id": "user2",
+          "pwd": "12345",
+          "role": "user",
+          "cetner": "서울양재센터",
+          "phone": "010-1234-5678",
+          "limitLogin": 3,
+          "loginFail": 3
+        }
+      ]
+    ],
+    "admin": [
+      [
+        {
+          "name": "관리자에요1",
+          "id": "admin1",
+          "pwd": "4321",
+          "role": "admin",
+          "cetner": "부산서면센터",
+          "phone": "010-4321",
+          "limitLogin": 2,
+          "loginFail": 2
+        },
+        {
+          "name": "관리자에요2",
+          "id": "admin2",
+          "pwd": "43210",
+          "role": "admin",
+          "cetner": "부산광안리센터",
+          "phone": "010-4321-8765",
+          "limitLogin": 4,
+          "loginFail": 4
+        }
+      ]
+    ]
   }
-]
+}
