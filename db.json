@@ -1,57 +1,74 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": [
-    {
-      "name": "사용자에요1",
-      "id": "user1",
-      "pwd": "1234",
-      "role": "user",
-      "cetner": "서울강남센터",
-      "phone": "010-1234",
-      "limitLogin": 1,
-      "loginFail": 1,
-      "token": "user1"
-    },
-    {
-      "name": "사용자에요2",
-      "id": "user2",
-      "pwd": "12345",
-      "role": "user",
-      "cetner": "서울양재센터",
-      "phone": "010-1234-5678",
-      "limitLogin": 3,
-      "loginFail": 3,
-      "token": "user2"
-    },
-    {
-      "name": "관리자에요1",
-      "id": "admin1",
-      "pwd": "4321",
-      "role": "admin",
-      "cetner": "부산서면센터",
-      "phone": "010-4321",
-      "limitLogin": 2,
-      "loginFail": 2,
-      "token": "admin1"
-    },
-    {
-      "name": "관리자에요2",
-      "id": "admin2",
-      "pwd": "43210",
-      "role": "admin",
-      "cetner": "부산광안리센터",
-      "phone": "010-4321-8765",
-      "limitLogin": 4,
-      "loginFail": 4,
-      "token": "admin2"
-    }
-  ]
+    "data": [
+        {
+            "deliveryRoundId": 1,
+            "shipperName": "화주사 A",
+            "deliveryRoundName": "회차 1",
+            "deliveryRoundStatus": "DELIVERY_REQUEST_WAITING",
+            "requestDateTime": "2024-07-01T10:00:00"
+        },
+        {
+            "deliveryRoundId": 2,
+            "shipperName": "화주사 B",
+            "deliveryRoundName": "회차 2",
+            "deliveryRoundStatus": "VEHICLE_ALLOCATION_WAITING",
+            "requestDateTime": "2024-07-02T11:00:00"
+        },
+        {
+            "deliveryRoundId": 3,
+            "shipperName": "화주사 C",
+            "deliveryRoundName": "회차 3",
+            "deliveryRoundStatus": "SORTING_SCAN_WAITING",
+            "requestDateTime": "2024-07-03T12:00:00"
+        },
+        {
+            "deliveryRoundId": 4,
+            "shipperName": "화주사 D",
+            "deliveryRoundName": "회차 4",
+            "deliveryRoundStatus": "SORTING_SCAN_IN_PROGRESS",
+            "requestDateTime": "2024-07-04T13:00:00"
+        },
+        {
+            "deliveryRoundId": 5,
+            "shipperName": "화주사 E",
+            "deliveryRoundName": "회차 5",
+            "deliveryRoundStatus": "PICKUP_SCAN_WAITING",
+            "requestDateTime": "2024-07-05T14:00:00"
+        },
+        {
+            "deliveryRoundId": 6,
+            "shipperName": "화주사 F",
+            "deliveryRoundName": "회차 6",
+            "deliveryRoundStatus": "IN_DELIVERY",
+            "requestDateTime": "2024-07-06T15:00:00"
+        },
+        {
+            "deliveryRoundId": 7,
+            "shipperName": "화주사 G",
+            "deliveryRoundName": "회차 7",
+            "deliveryRoundStatus": "DELIVERY_COMPLETED",
+            "requestDateTime": "2024-07-07T16:00:00"
+        },
+        {
+            "deliveryRoundId": 8,
+            "shipperName": "화주사 H",
+            "deliveryRoundName": "회차 8",
+            "deliveryRoundStatus": "DELIVERY_REQUEST_WAITING",
+            "requestDateTime": "2024-07-08T17:00:00"
+        },
+        {
+            "deliveryRoundId": 9,
+            "shipperName": "화주사 I",
+            "deliveryRoundName": "회차 9",
+            "deliveryRoundStatus": "VEHICLE_ALLOCATION_WAITING",
+            "requestDateTime": "2024-07-09T18:00:00"
+        },
+        {
+            "deliveryRoundId": 10,
+            "shipperName": "화주사 J",
+            "deliveryRoundName": "회차 10",
+            "deliveryRoundStatus": "SORTING_SCAN_WAITING",
+            "requestDateTime": "2024-07-10T19:00:00"
+        }
+    ]
 }
