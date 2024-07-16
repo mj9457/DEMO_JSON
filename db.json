@@ -1,13 +1,4 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
   "profile": [
     {
       "name": "사용자에요1",
@@ -53,9 +44,9 @@
       "loginFail": 4,
       "token": "admin2"
     }
-  ]
-    "delivery_round": {
-         "data": [
+  ],
+  
+  "data": [
         {
             "deliveryRoundId": 1,
             "shipperName": "화주사 A",
@@ -126,7 +117,5 @@
             "deliveryRoundStatus": "SORTING_SCAN_WAITING",
             "requestDateTime": "2024-07-10T19:00:00"
         }
-    ]
-    }
-   
+    ]  
 }
