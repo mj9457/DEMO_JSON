@@ -44,5 +44,78 @@
       "loginFail": 4,
       "token": "admin2"
     }
+  ],
+
+  "data": [
+    {
+      "deliveryRoundId": 1,
+      "shipperName": "화주사 A",
+      "deliveryRoundName": "회차 1",
+      "deliveryRoundStatus": "DELIVERY_REQUEST_WAITING",
+      "requestDateTime": "2024-07-01T10:00:00"
+    },
+    {
+      "deliveryRoundId": 2,
+      "shipperName": "화주사 B",
+      "deliveryRoundName": "회차 2",
+      "deliveryRoundStatus": "VEHICLE_ALLOCATION_WAITING",
+      "requestDateTime": "2024-07-02T11:00:00"
+    },
+    {
+      "deliveryRoundId": 3,
+      "shipperName": "화주사 C",
+      "deliveryRoundName": "회차 3",
+      "deliveryRoundStatus": "SORTING_SCAN_WAITING",
+      "requestDateTime": "2024-07-03T12:00:00"
+    },
+    {
+      "deliveryRoundId": 4,
+      "shipperName": "화주사 D",
+      "deliveryRoundName": "회차 4",
+      "deliveryRoundStatus": "SORTING_SCAN_IN_PROGRESS",
+      "requestDateTime": "2024-07-04T13:00:00"
+    },
+    {
+      "deliveryRoundId": 5,
+      "shipperName": "화주사 E",
+      "deliveryRoundName": "회차 5",
+      "deliveryRoundStatus": "PICKUP_SCAN_WAITING",
+      "requestDateTime": "2024-07-05T14:00:00"
+    },
+    {
+      "deliveryRoundId": 6,
+      "shipperName": "화주사 F",
+      "deliveryRoundName": "회차 6",
+      "deliveryRoundStatus": "IN_DELIVERY",
+      "requestDateTime": "2024-07-06T15:00:00"
+    },
+    {
+      "deliveryRoundId": 7,
+      "shipperName": "화주사 G",
+      "deliveryRoundName": "회차 7",
+      "deliveryRoundStatus": "DELIVERY_COMPLETED",
+      "requestDateTime": "2024-07-07T16:00:00"
+    },
+    {
+      "deliveryRoundId": 8,
+      "shipperName": "화주사 H",
+      "deliveryRoundName": "회차 8",
+      "deliveryRoundStatus": "DELIVERY_REQUEST_WAITING",
+      "requestDateTime": "2024-07-08T17:00:00"
+    },
+    {
+      "deliveryRoundId": 9,
+      "shipperName": "화주사 I",
+      "deliveryRoundName": "회차 9",
+      "deliveryRoundStatus": "VEHICLE_ALLOCATION_WAITING",
+      "requestDateTime": "2024-07-09T18:00:00"
+    },
+    {
+      "deliveryRoundId": 10,
+      "shipperName": "화주사 J",
+      "deliveryRoundName": "회차 10",
+      "deliveryRoundStatus": "SORTING_SCAN_WAITING",
+      "requestDateTime": "2024-07-10T19:00:00"
+    }
   ]
 }
